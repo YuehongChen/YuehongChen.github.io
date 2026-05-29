@@ -23,7 +23,7 @@ cv:
     Education:
       - institution: Nanjing University
         location: Nanjing, China
-        url: https://astronomy.nju.edu.cn/
+        url: https://astronomy.nju.edu.cn/EN/index.html
         area: Astronomy
         studyType: Ph.D.
         start_date: 2023-09
@@ -34,7 +34,7 @@ cv:
 
       - institution: Nanjing University
         location: Nanjing, China
-        url: https://astronomy.nju.edu.cn/
+        url: https://astronomy.nju.edu.cn/EN/index.html
         area: Astronomy
         studyType: M.Sc.
         start_date: 2021-09

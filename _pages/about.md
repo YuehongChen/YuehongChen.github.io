@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='https://www.nju.edu.cn/EN/'>Nanjing University</a> &amp; <a href='https://www.aip.de/en/'>Leibniz Institute for Astrophysics Potsdam</a>
+subtitle: PhD Candidate, <a href='https://astronomy.nju.edu.cn/EN/index.html'>Nanjing University</a> &amp; <a href='https://www.aip.de/en/'>Leibniz Institute for Astrophysics Potsdam</a>
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in astronomy at [Nanjing University](https://www.nju.edu.cn/EN/), currently a visiting researcher at the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/).
+I am a PhD candidate in astronomy at [Nanjing University](https://astronomy.nju.edu.cn/EN/index.html), currently a visiting researcher at the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/).
 
 My research **bridges solar and stellar physics**. Starting from observational studies of solar eruptive activity (flares, filament eruptions, and coronal mass ejections), I have extended my work to high-resolution **magnetohydrodynamic (MHD) simulations of Sun-like stars**, covering the full chain from stellar coronae and winds to CMEs and the associated energetic-particle events.
 

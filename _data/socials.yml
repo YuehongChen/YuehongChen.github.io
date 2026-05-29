@@ -7,6 +7,4 @@ email: yh_chen@smail.nju.edu.cn
 orcid_id: 0000-0003-1220-1582
 github_username: YuehongChen
 rss_icon: true
-# To enable the CV download button on the CV page, upload your PDF as
-# assets/pdf/cv.pdf and uncomment this line:
-# cv_pdf: /assets/pdf/cv.pdf
+cv_pdf: /assets/pdf/cv.pdf
