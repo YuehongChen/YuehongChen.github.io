@@ -22,13 +22,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in astronomy at [Nanjing University](https://www.nju.edu.cn/EN/) (advisor: Prof. Xin Cheng), currently a visiting researcher at the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/) hosted by Dr. Julián D. Alvarado-Gómez.
+I am a PhD candidate in astronomy at [Nanjing University](https://www.nju.edu.cn/EN/), currently a visiting researcher at the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/).
 
-My research **bridges solar and stellar physics**. Starting from observational studies of solar eruptive activity — flares, filament eruptions, and coronal mass ejections (CMEs) — I have extended my work to high-resolution **magnetohydrodynamic (MHD) simulations of Sun-like stars**, covering the full chain from stellar coronae and winds to CMEs and the associated energetic-particle events.
+My research **bridges solar and stellar physics**. Starting from observational studies of solar eruptive activity (flares, filament eruptions, and coronal mass ejections), I have extended my work to high-resolution **magnetohydrodynamic (MHD) simulations of Sun-like stars**, covering the full chain from stellar coronae and winds to CMEs and the associated energetic-particle events.
 
-I work primarily with [MPI-AMRVAC](https://amrvac.org/) and the [Space Weather Modeling Framework (SWMF)](https://clasp.engin.umich.edu/research/theory-computational-methods/swmf-downloadable-software/). This site collects my publications, CV, and occasional notes — please get in touch if any of this overlaps with your interests.
+I work primarily with [MPI-AMRVAC](https://amrvac.org/) and the [Space Weather Modeling Framework (SWMF)](https://clasp.engin.umich.edu/research/theory-computational-methods/swmf-downloadable-software/). This site collects my publications, CV, and occasional notes. Please get in touch if any of this overlaps with your interests.

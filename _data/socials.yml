@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-# IMPORTANT: do not leave any value blank — either fill it in or delete the whole line.
+# IMPORTANT: do not leave any value blank. Either fill it in or delete the whole line.
 # A bare key with no value becomes nil in YAML and crashes jekyll-socials at build time.
 email: yh_chen@smail.nju.edu.cn
 orcid_id: 0000-0003-1220-1582
