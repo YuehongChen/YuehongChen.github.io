@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='https://astronomy.nju.edu.cn/EN/index.html'>Nanjing University</a> &amp; <a href='https://www.aip.de/en/'>Leibniz Institute for Astrophysics Potsdam</a>
+subtitle:
 
 profile:
   align: right
