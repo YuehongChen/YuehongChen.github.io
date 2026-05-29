@@ -10,8 +10,9 @@ contact_note: >
   The fastest way to reach me is by email. I usually respond within a day.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website of Yue-Hong Chen, PhD candidate at Nanjing University
-  and the Leibniz Institute for Astrophysics Potsdam (AIP), working on solar
-  energetic particles and space plasma physics.
+  and visiting researcher at the Leibniz Institute for Astrophysics Potsdam (AIP).
+  Research bridges solar and stellar physics, from observations of solar eruptive
+  activity to high-resolution MHD simulations of Sun-like stars.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

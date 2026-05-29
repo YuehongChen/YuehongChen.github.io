@@ -1,92 +1,152 @@
 cv:
   name: Yue-Hong Chen
-  label: PhD Candidate
+  label: Ph.D. Candidate in Astronomy
   email: yh_chen@smail.nju.edu.cn
   location: Nanjing, China / Potsdam, Germany
   image: ""
-  summary: PhD candidate at Nanjing University and the Leibniz Institute for Astrophysics Potsdam (AIP), working on solar energetic particles and space plasma physics.
+  summary: >
+    My research bridges solar and stellar physics. Starting from observational
+    studies of solar eruptive activity, I have extended my work to high-resolution
+    magnetohydrodynamic (MHD) simulations of Sun-like stars, covering the full
+    chain from stellar coronae and winds to coronal mass ejections and the
+    associated energetic-particle events.
 
   social_networks:
     - network: GitHub
       username: YuehongChen
-    # - network: LinkedIn
-    #   username: TODO
-    # - network: X
-    #   username: TODO
 
   address:
-    street:
     city: Nanjing
-    region:
-    postalCode:
     countryCode: CN
 
   sections:
     Education:
-      # TODO: fill in actual start/end dates and advisors
-      - institution: Nanjing University &amp; Leibniz Institute for Astrophysics Potsdam (AIP)
-        location: Nanjing, China &amp; Potsdam, Germany
-        url: https://www.nju.edu.cn/EN/
-        area: Astrophysics
-        studyType: PhD (joint program)
-        start_date: 2021
+      - institution: Nanjing University
+        location: Nanjing, China
+        url: https://astronomy.nju.edu.cn/
+        area: Astronomy
+        studyType: Ph.D.
+        start_date: 2023-09
         end_date: present
         highlights:
-          - "Research: solar energetic particles, MHD modelling of coronae and stellar winds"
+          - "School of Astronomy and Space Science. Advisor: Prof. Xin Cheng."
+          - "Research focus: high-resolution MHD modelling of stellar coronae, winds, and CMEs in Sun-like stars."
 
       - institution: Nanjing University
         location: Nanjing, China
-        url: https://www.nju.edu.cn/EN/
-        area: Astronomy / Astrophysics
-        studyType: B.Sc.
-        start_date: 2017
-        end_date: 2021
+        url: https://astronomy.nju.edu.cn/
+        area: Astronomy
+        studyType: M.Sc.
+        start_date: 2021-09
+        end_date: 2023-06
+        highlights:
+          - "School of Astronomy and Space Science. Advisor: Assoc. Prof. Yu Dai."
+          - "Observational study of solar flares and filament eruptions."
 
     Experience:
-      # TODO: fill in research assistant / teaching positions
       - company: Leibniz Institute for Astrophysics Potsdam (AIP)
-        position: Visiting PhD researcher
+        position: Visiting Ph.D. Researcher
         location: Potsdam, Germany
-        start_date: 2024
+        url: https://www.aip.de/en/
+        start_date: 2025-09
         end_date: present
-        summary: Joint PhD training; coronal and stellar-wind MHD simulations.
+        summary: Host - Dr. Julián D. Alvarado-Gómez.
+        highlights:
+          - "Stellar wind and CME modelling of Sun-like stars at varying rotation rates."
 
-    # Selected publications are pulled from _bibliography/papers.bib automatically.
-    # The fields below are optional resume-style mirrors; comment in if you want
-    # them duplicated on the CV page.
-    # Publications:
-    #   - title: High-Resolution Modeling of Coronae and Winds in Solar-Type Stars...
-    #     authors:
-    #       - Yue-Hong Chen
-    #     publisher: The Astrophysical Journal
-    #     releaseDate: 2025-12-01
-    #     url: https://doi.org/10.3847/1538-4357/ae1697
+      - company: Leibniz Institute for Astrophysics Potsdam (AIP)
+        position: Visiting Researcher
+        location: Potsdam, Germany
+        url: https://www.aip.de/en/
+        start_date: 2024-09
+        end_date: 2024-11
+
+      - company: Yunnan University
+        position: Joint-Training Visiting Student
+        location: Kunming, China
+        start_date: 2023-08
+        end_date: 2023-08
+
+      - company: Nanjing University
+        position: Teaching Assistant
+        location: Nanjing, China
+        summary: "Introduction to Space Physics (undergraduate course)."
+
+    Awards:
+      - title: Formation and Evolution of Stellar Coronal Mass Ejections
+        date: 2024-04
+        awarder: Postgraduate Research & Practice Innovation Program of Jiangsu Province
+        summary: "Principal Investigator. Apr 2024 – May 2026."
+
+      - title: Lower-Atmospheric Signatures of Coronal Mass Ejection Initiation
+        date: 2024-09
+        awarder: National funding (PI - Dr. Chen Xing)
+        summary: "Co-Investigator (numerical simulation). Sep 2024 – Aug 2027."
+
+    Talks:
+      - title: 89th DPG Annual Meeting & SMuK Spring Conference, Extraterrestrial Physics (EP) Division
+        date: 2026-03
+        awarder: FAU Erlangen-Nürnberg, Germany
+        summary: "Oral presentation."
+
+      - title: 16th Zhang Heng Symposium / Joint Solar–Stellar Physics Workshop
+        date: 2025-08
+        awarder: Qingdao, China
+        summary: "Centenary of Chinese Hand-Drawn Sunspot Records. Oral presentation."
+
+      - title: IAU Symposium 400, "Solar and Stellar Multi-Scale Activity"
+        date: 2025-07
+        awarder: EAFIT University, Medellín, Colombia
+        summary: "Oral presentation."
+
+      - title: Stellar X-Ray Flares in the Einstein Probe Era (Workshop)
+        date: 2025-05
+        awarder: EP Science Center & NAOC Solar Magnetic Activity Group, Beijing, China
+        summary: "Oral presentation."
+
+      - title: 2nd International Conference of Deep Space Sciences (ICDSS 2025)
+        date: 2025-04
+        awarder: Hefei, China
+        summary: "Oral presentation."
+
+      - title: 45th COSPAR Scientific Assembly
+        date: 2024-07
+        awarder: BEXCO, Busan, Korea
+        summary: "Oral presentation."
+
+      - title: IAU Symposium 388, "Solar and Stellar Coronal Mass Ejections"
+        date: 2024-05
+        awarder: Jagiellonian University Observatory, Kraków, Poland
+        summary: "Oral presentation."
+
+      - title: Annual Meeting of the Chinese Solar Physics Community
+        date: 2023
+        awarder: Chengdu, China
+        summary: "Oral presentation."
 
     Skills:
-      - name: Numerical simulation
-        level: Advanced
-        icon: fa-solid fa-microchip
-        keywords: "SWMF, BATS-R-US, MHD, kinetic plasma, parallel computing (MPI/OpenMP)"
-
       - name: Programming
         level: Advanced
         icon: fa-solid fa-code
-        keywords: "Fortran, Python (NumPy/Matplotlib/SciPy), IDL, shell, git"
+        keywords: "Python, IDL, Fortran"
 
-      - name: Data analysis
-        level: Intermediate
+      - name: Simulation codes
+        level: Advanced
+        icon: fa-solid fa-microchip
+        keywords: "MPI-AMRVAC, SWMF"
+
+      - name: Methods
+        level: Advanced
         icon: fa-solid fa-chart-line
-        keywords: "in-situ spacecraft data (PSP, Solar Orbiter, ACE), remote-sensing solar imaging"
+        keywords: "MHD simulation; solar and stellar data analysis"
 
     Languages:
-      - name: Mandarin Chinese
+      - name: Chinese
         summary: "Native speaker"
       - name: English
-        summary: "Fluent (academic / working)"
-      # - name: German
-      #   summary: "Basic"
+        summary: "Working proficiency"
 
     Interests:
-      - name: Heliophysics
+      - name: Heliophysics & Stellar physics
         icon: fa-solid fa-sun
-        keywords: "solar energetic particles, CMEs, flux ropes, space weather, stellar coronae"
+        keywords: "solar flares, filament eruptions, CMEs, stellar coronae, stellar winds, stellar CMEs, energetic particles"

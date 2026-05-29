@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in astrophysics, jointly trained at [Nanjing University](https://www.nju.edu.cn/EN/) and the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/). My research focuses on **solar energetic particles (SEPs)**, the heliosphere, and the space-weather chain that links solar eruptions to particle acceleration and transport at 1 AU and beyond.
+I am a PhD candidate in astronomy at [Nanjing University](https://www.nju.edu.cn/EN/) (advisor: Prof. Xin Cheng), currently a visiting researcher at the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/) hosted by Dr. Julián D. Alvarado-Gómez.
 
-I work mostly with the [Space Weather Modeling Framework (SWMF)](https://clasp.engin.umich.edu/research/theory-computational-methods/swmf-downloadable-software/) and related MHD/kinetic codes, combining numerical simulations with in-situ observations from missions such as *Parker Solar Probe*, *Solar Orbiter*, and *ACE*.
+My research **bridges solar and stellar physics**. Starting from observational studies of solar eruptive activity — flares, filament eruptions, and coronal mass ejections (CMEs) — I have extended my work to high-resolution **magnetohydrodynamic (MHD) simulations of Sun-like stars**, covering the full chain from stellar coronae and winds to CMEs and the associated energetic-particle events.
 
-This site collects my publications, a copy of my CV, occasional notes, and ongoing projects. Please get in touch if any of this overlaps with your interests.
+I work primarily with [MPI-AMRVAC](https://amrvac.org/) and the [Space Weather Modeling Framework (SWMF)](https://clasp.engin.umich.edu/research/theory-computational-methods/swmf-downloadable-software/). This site collects my publications, CV, and occasional notes — please get in touch if any of this overlaps with your interests.
