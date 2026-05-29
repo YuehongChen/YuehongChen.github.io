@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://YuehongChen.github.io/sitemap.xml
