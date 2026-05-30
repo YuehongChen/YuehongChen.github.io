@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: PhD candidate in solar/stellar physics. Graduating June 2027 and seeking postdoc positions.
 
 profile:
   align: right
