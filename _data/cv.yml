@@ -67,11 +67,6 @@ cv:
         start_date: 2023-08
         end_date: 2023-08
 
-      - company: Nanjing University
-        position: Teaching Assistant
-        location: Nanjing, China
-        summary: "Introduction to Space Physics (undergraduate course)."
-
     "Grants & Funding":
       - title: Formation and Evolution of Stellar Coronal Mass Ejections
         date: 2024-04
