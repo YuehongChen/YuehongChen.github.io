@@ -29,6 +29,6 @@ latest_posts:
 
 I am a PhD candidate in astronomy at [Nanjing University](https://astronomy.nju.edu.cn/EN/index.html), currently a visiting researcher at the [Leibniz Institute for Astrophysics Potsdam (AIP)](https://www.aip.de/en/).
 
-My research **bridges solar and stellar physics**. Starting from observational studies of solar eruptive activity (flares, filament eruptions, and coronal mass ejections), I have extended my work to high-resolution **magnetohydrodynamic (MHD) simulations of Sun-like stars**, covering the full chain from stellar coronae and winds to CMEs and the associated energetic-particle events.
+My research **bridges solar and stellar physics**. Starting from observational studies of solar eruptive activity (flares, filament eruptions, and coronal mass ejections), I have extended my work to high-resolution **magnetohydrodynamic (MHD) simulations of Sun-like stars**, covering the chain from stellar coronae and winds to CMEs and the associated energetic-particle events.
 
 I work primarily with [MPI-AMRVAC](https://amrvac.org/) and the [Space Weather Modeling Framework (SWMF)](https://clasp.engin.umich.edu/research/theory-computational-methods/swmf-downloadable-software/). This site collects my publications, CV, and occasional notes. Please get in touch if any of this overlaps with your interests.
