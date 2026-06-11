@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-`git commit -m 'shipped Projects page while looking very busy elsewhere'`
+<code>git commit -m &#39;shipped Projects page while looking very busy elsewhere&#39;</code>
