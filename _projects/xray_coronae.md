@@ -13,5 +13,5 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Solar-type stars with different rotation rates: X-ray imaging and rotational modulation of the X-ray intensity. From simulation: <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae1697">https://iopscience.iop.org/article/10.3847/1538-4357/ae1697</a>
+    Solar-type stars with different rotation rates: X-ray imaging and rotational modulation of the X-ray intensity. Stellar rotation rate increases from left to right. The top row shows activity minimum; the bottom row shows activity maximum. Rotation rate (Ω), rotation period (P), and surface magnetic field strength (B) are labeled in each panel. From simulation: <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ae1697">https://iopscience.iop.org/article/10.3847/1538-4357/ae1697</a>
 </div>
