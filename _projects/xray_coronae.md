@@ -2,7 +2,7 @@
 layout: page
 title: How would the coronae of the other sun-like stars look like?
 description: Studying the hot, X-ray-emitting coronae of Sun-like stars and their activity.
-img:
+img: assets/img/Sun_max_be_thick.png
 importance: 2
 category: work
 ---
