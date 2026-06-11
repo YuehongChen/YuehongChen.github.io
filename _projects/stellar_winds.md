@@ -22,5 +22,5 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Stellar winds: from quiet Suns to active solar-type stars. Image credit: manuscript under review.
+    Stellar winds. From up to bottom, stars rotate faster. The left shows each star at its activity minimum, while the right shows it at activity maximum. Rotation rate (Ω), rotation period (P), and surface magnetic field strength (B) are annotated in each panel. Image credit: manuscript under review.
 </div>
