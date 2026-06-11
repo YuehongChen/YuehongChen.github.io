@@ -16,4 +16,20 @@ category: work
     Snapshot from a stellar energetic particle (SEP) event simulation.
 </div>
 
-Animations from this project will be added here.
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/175_EK_CME_density.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+    </div>
+</div>
+<div class="caption">
+    A "weak" CME in EK Dra (a young Sun).
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/175_EK_SP.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+    </div>
+</div>
+<div class="caption">
+    The energetic particles accelerated by the CME above. The circles are at 1 au.
+</div>
