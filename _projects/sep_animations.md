@@ -29,6 +29,16 @@ category: work
 
 <div class="row justify-content-center">
     <div class="col-sm-10 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/175_mollweide_animation.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+    </div>
+</div>
+<div class="caption">
+    The energetic particle events at 1 au.<br>
+    Credit: Yuehong Chen (From ongoing work; please contact me before reuse)
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/175_EK_shock.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
     </div>
 </div>
