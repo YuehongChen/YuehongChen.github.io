@@ -50,6 +50,9 @@ cv:
         studyType: B.A.
         start_date: 2016-09
         end_date: 2020-06
+        highlights:
+          - "School of Economics."
+          - "Undergraduate thesis on the impact of regional air-pollution control policies on air quality."
 
     Experience:
       - company: Leibniz Institute for Astrophysics Potsdam (AIP)
