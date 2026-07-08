@@ -50,3 +50,21 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* al_folio_core 1.0.9 compiles Bootstrap's `.fixed-top` / `.fixed-bottom`
+   with a broken `calc(var( - - spacing)*0)` for top/right/left, so those
+   offsets are dropped. A position:fixed navbar then loses `left:0; right:0`,
+   shrink-wraps to its content, and hugs the left edge instead of spanning the
+   full width. Restore the offsets so the bar is full width and its inner
+   `.container` centers in line with the page content column. */
+.fixed-top {
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.fixed-bottom {
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
