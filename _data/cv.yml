@@ -42,18 +42,7 @@ cv:
         highlights:
           - "School of Astronomy and Space Science. Advisor: Assoc. Prof. Yu Dai."
           - "Observational study of solar flares and filament eruptions."
-
-      - institution: Renmin University of China
-        location: Beijing, China
-        url: https://en.ruc.edu.cn/
-        area: Economics
-        studyType: B.A.
-        start_date: 2016-09
-        end_date: 2020-06
-        highlights:
-          - "School of Economics."
-          - "Undergraduate thesis on the impact of regional air-pollution control policies on air quality."
-
+          
     Experience:
       - company: Leibniz Institute for Astrophysics Potsdam (AIP)
         position: Visiting Ph.D. Researcher
