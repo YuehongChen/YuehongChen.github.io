@@ -1,0 +1,151 @@
+# Conferences, seminars and visits shown in the "Where to find me" timeline on the homepage.
+# Fields:
+#   start, end : ISO dates (YYYY-MM-DD). Used for sorting and for splitting upcoming vs. past
+#                (an item becomes "past" the day after `end`). For month-only entries use the
+#                first and last day of the month.
+#   when       : the date text shown on the page
+#   type       : conference | workshop | seminar | visit
+#   event      : name of the meeting or host institution
+#   location   : city, country
+#   note       : optional, shown after the event (e.g. awards)
+#   url        : optional link for the event name
+# Order in this file does not matter.
+
+# ---- Upcoming visits ----
+- start: 2026-10-13
+  end: 2026-10-17
+  when: Oct 13–17, 2026
+  type: visit
+  event: Leiden Observatory
+  location: Leiden, the Netherlands
+
+- start: 2026-10-21
+  end: 2026-10-23
+  when: Oct 21–23, 2026
+  type: visit
+  event: KU Leuven
+  location: Leuven, Belgium
+
+- start: 2026-10-25
+  end: 2026-10-27
+  when: Oct 25–27, 2026
+  type: visit
+  event: University of Tübingen
+  location: Tübingen, Germany
+
+- start: 2026-11-08
+  end: 2026-11-12
+  when: Nov 8–12, 2026
+  type: workshop
+  event: "Sun–Earth Connection through Stellar Analogs"
+  location: University of Graz, Austria
+
+- start: 2026-11-18
+  end: 2026-11-20
+  when: Nov 18–20, 2026
+  type: visit
+  event: Konkoly Observatory
+  location: Budapest, Hungary
+
+- start: 2026-11-29
+  end: 2026-12-04
+  when: Nov 29 – Dec 4, 2026
+  type: conference
+  event: "IAU Symposium 410: New Look at Solar and Stellar Coronae"
+  location: Shenzhen, China
+  url: https://www.shenzhen-astronomy.org.cn/iaus410.html
+
+# ---- Seminars ----
+- start: 2026-09-01
+  end: 2026-09-30
+  when: Sep 2026
+  type: seminar
+  event: Max Planck Institute for Solar System Research (MPS)
+  location: Göttingen, Germany
+
+- start: 2026-09-01
+  end: 2026-09-30
+  when: Sep 2026
+  type: seminar
+  event: ASTRON, Netherlands Institute for Radio Astronomy
+  location: Dwingeloo, the Netherlands
+
+# ---- Conferences ----
+- start: 2026-08-01
+  end: 2026-08-31
+  when: Aug 2026
+  type: conference
+  event: COSPAR 2026
+  location: Florence, Italy
+
+- start: 2026-08-01
+  end: 2026-08-31
+  when: Aug 2026
+  type: conference
+  event: Magnetic Eclipse
+  location: Valencia, Spain
+
+- start: 2026-06-01
+  end: 2026-06-30
+  when: Jun 2026
+  type: conference
+  event: Cool Stars 23
+  location: Tokyo, Japan
+  note: Best Poster Award
+
+- start: 2026-03-01
+  end: 2026-03-31
+  when: Mar 2026
+  type: conference
+  event: 89th DPG Annual Meeting & SMuK Spring Conference
+  location: Erlangen, Germany
+
+- start: 2025-08-01
+  end: 2025-08-31
+  when: Aug 2025
+  type: workshop
+  event: 16th Zhang Heng Symposium / Joint Solar–Stellar Physics Workshop
+  location: Qingdao, China
+
+- start: 2025-07-01
+  end: 2025-07-31
+  when: Jul 2025
+  type: conference
+  event: "IAU Symposium 400: Solar and Stellar Multi-Scale Activity"
+  location: Medellín, Colombia
+
+- start: 2025-05-01
+  end: 2025-05-31
+  when: May 2025
+  type: workshop
+  event: Stellar X-Ray Flares in the Einstein Probe Era
+  location: Beijing, China
+
+- start: 2025-04-01
+  end: 2025-04-30
+  when: Apr 2025
+  type: conference
+  event: 2nd International Conference of Deep Space Sciences (ICDSS 2025)
+  location: Hefei, China
+  note: Best Presentation Award
+
+- start: 2024-07-01
+  end: 2024-07-31
+  when: Jul 2024
+  type: conference
+  event: 45th COSPAR Scientific Assembly
+  location: Busan, Korea
+
+- start: 2024-05-01
+  end: 2024-05-31
+  when: May 2024
+  type: conference
+  event: "IAU Symposium 388: Solar and Stellar Coronal Mass Ejections"
+  location: Kraków, Poland
+
+- start: 2023-01-01
+  end: 2023-12-31
+  when: 2023
+  type: conference
+  event: Annual Meeting of the Chinese Solar Physics Community
+  location: Chengdu, China

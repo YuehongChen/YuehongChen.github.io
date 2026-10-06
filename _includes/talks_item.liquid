@@ -1,0 +1,2 @@
+{%- assign t = include.t -%}
+<li data-start="{{ t.start | date: '%Y%m%d' }}" data-end="{{ t.end | date: '%Y%m%d' }}"><span class="talks-when">{{ t.when }}<span class="talks-type">{{ t.type }}</span></span>{% if t.url %}<a class="talks-event" href="{{ t.url }}">{{ t.event }}</a>{% else %}<span class="talks-event">{{ t.event }}</span>{% endif %} <span class="talks-loc">· {{ t.location }}</span>{% if t.note %} <span class="talks-note">· {{ t.note }}</span>{% endif %}</li>

@@ -1,0 +1,51 @@
+{%- comment -%}
+Timeline of conferences, seminars and visits, read from _data/talks.yml.
+Newest at the top: upcoming events (latest first), a "today" marker, then past events.
+The nearest upcoming event (last item of the upcoming list) is highlighted.
+The build-time split into upcoming/past is corrected in the browser by the script below,
+so an event moves to "past" on the day after it ends even without a new build.
+Output is kept free of blank lines and indentation so kramdown leaves it as raw HTML.
+{%- endcomment -%}
+{%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+{%- assign talks = site.data.talks | sort: "start" | reverse -%}
+{%- capture upcoming_items -%}{%- for t in talks -%}{%- assign e = t.end | date: "%Y%m%d" | plus: 0 -%}{%- if e >= today -%}{%- include talks_item.liquid t=t -%}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+{%- capture past_items -%}{%- for t in talks -%}{%- assign e = t.end | date: "%Y%m%d" | plus: 0 -%}{%- if e < today -%}{%- include talks_item.liquid t=t -%}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+<style>
+.talks{margin-bottom:2.5rem}
+.talks ol{list-style:none;margin:0 0 0 .6rem;padding:0 0 0 1.1rem;border-left:2px solid var(--global-divider-color)}
+.talks li{position:relative;padding:0 0 .8rem}
+.talks li::before{content:"";position:absolute;left:calc(-1.1rem - 7px);top:.45rem;width:12px;height:12px;box-sizing:border-box;border-radius:50%;background:var(--global-bg-color);border:2px solid var(--global-text-color-light)}
+.talks .talks-upcoming li::before{border-color:var(--global-theme-color)}
+.talks .talks-upcoming li:last-child::before{background:var(--global-theme-color);box-shadow:0 0 0 4px color-mix(in srgb,var(--global-theme-color) 30%,transparent)}
+.talks .talks-upcoming li:last-child .talks-event{color:var(--global-theme-color);font-weight:600}
+.talks .talks-today{position:relative;margin-left:.6rem;padding:.1rem 0 .9rem 1.1rem;border-left:2px solid var(--global-divider-color);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--global-text-color-light)}
+.talks .talks-today::before{content:"";position:absolute;left:calc(-.55rem - 1px);top:.55rem;width:1.1rem;border-top:2px solid var(--global-text-color-light)}
+.talks .talks-when{display:block;font-size:.85rem;color:var(--global-text-color-light)}
+.talks .talks-type{display:inline-block;font-size:.7rem;text-transform:uppercase;letter-spacing:.04em;padding:0 .4rem;margin-left:.4rem;border:1px solid var(--global-divider-color);border-radius:.25rem;vertical-align:1px}
+.talks .talks-flag{border-color:var(--global-theme-color);color:var(--global-theme-color)}
+.talks .talks-event{font-weight:500}
+.talks a.talks-event{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}
+.talks .talks-loc,.talks .talks-note{color:var(--global-text-color-light)}
+.talks .talks-note{font-style:italic}
+.talks .talks-past-wrap{max-height:20rem;overflow-y:auto;-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent);mask-image:linear-gradient(to bottom,#000 80%,transparent)}
+.talks .talks-past-wrap ol{padding-bottom:3rem}
+</style>
+<div class="talks">
+<h2>where to find me</h2>
+<ol class="talks-upcoming"{% if upcoming_items == "" %} hidden{% endif %}>{{ upcoming_items }}</ol>
+<div class="talks-today">today</div>
+<div class="talks-past-wrap"{% if past_items == "" %} hidden{% endif %}><ol class="talks-past">{{ past_items }}</ol></div>
+</div>
+<script>
+(function(){
+var d=new Date(),today=d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate();
+var up=document.querySelector(".talks-upcoming"),past=document.querySelector(".talks-past");
+if(!up||!past)return;
+var items=Array.prototype.slice.call(up.children).reverse();
+items.forEach(function(li){if(+li.dataset.end<today)past.insertBefore(li,past.firstChild);});
+up.hidden=!up.children.length;
+past.parentNode.hidden=!past.children.length;
+var next=up.lastElementChild;
+if(next){var b=document.createElement("span");b.className="talks-type talks-flag";b.textContent=+next.dataset.start<=today?"now":"next";next.querySelector(".talks-when").appendChild(b);}
+})();
+</script>

@@ -5,6 +5,7 @@ description: Time-dependent visualizations of SEP transport and acceleration in 
 img: assets/img/projects/sep_animations.png
 importance: 1
 category: work
+published: false
 ---
 
 <div class="row justify-content-center">

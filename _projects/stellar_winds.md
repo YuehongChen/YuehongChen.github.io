@@ -13,7 +13,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Solar wind, and what Earth experiences. Credit: manuscript under review.
+    Solar wind, and what Earth experiences. Credit: <a href="https://doi.org/10.3847/1538-4357/aeab7e">Chen et al. (2026, ApJ)</a>.
 </div>
 
 <div class="row justify-content-center">
@@ -22,5 +22,5 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Stellar winds. From up to bottom, stars rotate faster. The left shows each star at its activity minimum, while the right shows it at activity maximum. Rotation rate (Ω), rotation period (P), and surface magnetic field strength (B) are annotated in each panel. Image credit: manuscript under review.
+    Stellar winds. From up to bottom, stars rotate faster. The left shows each star at its activity minimum, while the right shows it at activity maximum. Rotation rate (Ω), rotation period (P), and surface magnetic field strength (B) are annotated in each panel. Image credit: <a href="https://doi.org/10.3847/1538-4357/aeab7e">Chen et al. (2026, ApJ)</a>.
 </div>
