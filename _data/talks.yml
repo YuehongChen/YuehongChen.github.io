@@ -70,6 +70,13 @@
   event: ASTRON, Netherlands Institute for Radio Astronomy
   location: Dwingeloo, the Netherlands
 
+- start: 2024-11-01
+  end: 2024-11-30
+  when: Nov 2024
+  type: seminar
+  event: Leibniz Institute for Astrophysics Potsdam (AIP)
+  location: Potsdam, Germany
+
 # ---- Conferences ----
 - start: 2026-08-01
   end: 2026-08-31
