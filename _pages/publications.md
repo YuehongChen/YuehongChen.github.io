@@ -13,8 +13,18 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<h2 class="pub-section">first-author publications</h2>
+
 <div class="publications">
 
 {% bibliography %}
+
+</div>
+
+<h2 class="pub-section">co-authored publications</h2>
+
+<div class="publications">
+
+{% bibliography --file coauthored %}
 
 </div>
