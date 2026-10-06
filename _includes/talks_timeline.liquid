@@ -12,14 +12,14 @@ Output is kept free of blank lines and indentation so kramdown leaves it as raw 
 {%- capture past_items -%}{%- for t in talks -%}{%- assign e = t.end | date: "%Y%m%d" | plus: 0 -%}{%- if e < today -%}{%- include talks_item.liquid t=t -%}{%- endif -%}{%- endfor -%}{%- endcapture -%}
 <style>
 .talks{margin-bottom:2.5rem}
-.talks ol{list-style:none;margin:0 0 0 .6rem;padding:0 0 0 1.1rem;border-left:2px solid var(--global-divider-color)}
+.talks ol{list-style:none;margin:0 0 0 10px;padding:0 0 0 18px;border-left:2px solid var(--global-divider-color)}
 .talks li{position:relative;padding:0 0 .8rem}
-.talks li::before{content:"";position:absolute;left:calc(-1.1rem - 7px);top:.45rem;width:12px;height:12px;box-sizing:border-box;border-radius:50%;background:var(--global-bg-color);border:2px solid var(--global-text-color-light)}
+.talks li::before{content:"";position:absolute;left:-25px;top:.45rem;width:12px;height:12px;box-sizing:border-box;border-radius:50%;background:var(--global-bg-color);border:2px solid var(--global-text-color-light)}
 .talks .talks-upcoming li::before{border-color:var(--global-theme-color)}
 .talks .talks-upcoming li:last-child::before{background:var(--global-theme-color);box-shadow:0 0 0 4px color-mix(in srgb,var(--global-theme-color) 30%,transparent)}
 .talks .talks-upcoming li:last-child .talks-event{color:var(--global-theme-color);font-weight:600}
-.talks .talks-today{position:relative;margin-left:.6rem;padding:.1rem 0 .9rem 1.1rem;border-left:2px solid var(--global-divider-color);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--global-text-color-light)}
-.talks .talks-today::before{content:"";position:absolute;left:calc(-.55rem - 1px);top:.55rem;width:1.1rem;border-top:2px solid var(--global-text-color-light)}
+.talks .talks-today{position:relative;margin-left:10px;padding:.1rem 0 .9rem 18px;border-left:2px solid var(--global-divider-color);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--global-text-color-light)}
+.talks .talks-today::before{content:"";position:absolute;left:-10px;top:.55rem;width:18px;border-top:2px solid var(--global-text-color-light)}
 .talks .talks-when{display:block;font-size:.85rem;color:var(--global-text-color-light)}
 .talks .talks-type{display:inline-block;font-size:.7rem;text-transform:uppercase;letter-spacing:.04em;padding:0 .4rem;margin-left:.4rem;border:1px solid var(--global-divider-color);border-radius:.25rem;vertical-align:1px}
 .talks .talks-flag{border-color:var(--global-theme-color);color:var(--global-theme-color)}
