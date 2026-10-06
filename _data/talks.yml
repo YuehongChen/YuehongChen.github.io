@@ -4,7 +4,7 @@
 #                (an item becomes "past" the day after `end`). For month-only entries use the
 #                first and last day of the month.
 #   when       : the date text shown on the page
-#   type       : conference | workshop | seminar | visit
+#   type       : conference | workshop | seminar | talk | visit
 #   event      : name of the meeting or host institution
 #   location   : city, country
 #   note       : optional, shown after the event (e.g. awards)
@@ -66,7 +66,7 @@
 - start: 2026-09-01
   end: 2026-09-30
   when: Sep 2026
-  type: seminar
+  type: talk
   event: ASTRON, Netherlands Institute for Radio Astronomy
   location: Dwingeloo, the Netherlands
 
