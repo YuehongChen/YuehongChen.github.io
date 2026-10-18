@@ -69,17 +69,53 @@ cv:
         start_date: 2023-08
         end_date: 2023-08
         summary: Host - Prof. Chun Xia.
+        highlights:
+          - "MPI-AMRVAC modelling."
 
     "Grants & Funding":
       - title: Formation and Evolution of Stellar Coronal Mass Ejections
         date: 2024-04
-        awarder: Postgraduate Research & Practice Innovation Program of Jiangsu Province
-        summary: "Principal Investigator. Apr 2024 – May 2026."
+        awarder: Postgraduate Research & Practice Innovation Program, Ministry of Education of Jiangsu Province
+        summary: "Principal Investigator. EUR 4,000. Apr 2024 – May 2026."
 
       - title: Lower-Atmospheric Signatures of Coronal Mass Ejection Initiation
         date: 2024-09
         awarder: Natural Science Foundation of Jiangsu Province (PI - Dr. Chen Xing)
         summary: "Co-Investigator (numerical simulation). Sep 2024 – Aug 2027."
+
+    Awards:
+      - title: Chenxi Yangfan Scholarship
+        date: 2026
+        awarder: Nanjing University
+        summary: "EUR 1,300."
+
+      - title: Best Poster Award (upgraded to an oral presentation)
+        date: 2026-06
+        awarder: Cool Stars 23, Tokyo, Japan
+
+      - title: Joint Ph.D. Scholarship
+        date: 2025
+        awarder: China Scholarship Council
+        summary: "EUR 20,250. Visiting researcher at AIP Potsdam, Sep 2025 – Nov 2026, on \"Modelling Coronal Mass Ejections on Solar-type Stars\"."
+
+      - title: Best Presentation Award
+        date: 2025-04
+        awarder: 2nd International Conference of Deep Space Sciences (ICDSS 2025), Hefei, China
+
+      - title: Tiangong International Overseas Exchange Scholarship
+        date: 2024
+        awarder: Nanjing University
+        summary: "EUR 5,550. Visiting researcher at AIP Potsdam, Sep – Nov 2024, on \"Modelling Stellar Coronae and Winds from Solar-type Stars\"."
+
+    "Teaching & Supervision":
+      - label: Teaching assistant
+        details: "Introduction to Space Physics (undergraduate course), Nanjing University."
+      - label: Supervision (2023)
+        details: "Co-supervised two undergraduate students on an early-stage research project analysing Sun-as-a-star coronal dimming spectra."
+
+    "Workshop Organisation":
+      - label: Dec 2026
+        details: "Co-organiser, mini-workshop \"Beyond the Sun: Stellar Eruptions and Planetary Environments\", Nanjing University, China."
 
     Skills:
       - name: Programming

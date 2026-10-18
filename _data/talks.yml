@@ -12,10 +12,10 @@
 # Order in this file does not matter.
 
 # ---- Upcoming visits ----
-- start: 2026-10-13
-  end: 2026-10-17
-  when: Oct 13–17, 2026
-  type: visit
+- start: 2026-10-14
+  end: 2026-10-14
+  when: Oct 2026
+  type: talk
   event: Leiden Observatory
   location: Leiden, the Netherlands
 
