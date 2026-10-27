@@ -34,5 +34,3 @@ My research **bridges solar and stellar physics**. Starting from observational s
 I work primarily with [MPI-AMRVAC](https://amrvac.org/) and the [Space Weather Modeling Framework (SWMF)](https://clasp.engin.umich.edu/research/theory-computational-methods/swmf-downloadable-software/). This site collects my publications, CV, and occasional notes. Please get in touch if any of this overlaps with your interests.
 
 {% include talks_timeline.liquid %}
-
-{% include contact_form.liquid %}
