@@ -20,16 +20,16 @@
   location: Leiden, the Netherlands
 
 - start: 2026-10-21
-  end: 2026-10-23
-  when: Oct 21–23, 2026
-  type: visit
+  end: 2026-10-21
+  when: Oct 21, 2026
+  type: seminar
   event: KU Leuven
   location: Leuven, Belgium
 
-- start: 2026-10-25
-  end: 2026-10-27
-  when: Oct 25–27, 2026
-  type: visit
+- start: 2026-10-26
+  end: 2026-10-26
+  when: Oct 26, 2026
+  type: seminar
   event: University of Tübingen
   location: Tübingen, Germany
 
